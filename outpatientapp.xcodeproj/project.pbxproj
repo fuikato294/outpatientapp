@@ -9,21 +9,45 @@
 /* Begin PBXBuildFile section */
 		0088157926C20ACE008EADD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088157826C20ACE008EADD1 /* AppDelegate.swift */; };
 		0088157B26C20ACE008EADD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088157A26C20ACE008EADD1 /* SceneDelegate.swift */; };
-		0088157D26C20ACE008EADD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088157C26C20ACE008EADD1 /* ViewController.swift */; };
 		0088158026C20ACE008EADD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0088157E26C20ACE008EADD1 /* Main.storyboard */; };
 		0088158226C20ACF008EADD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0088158126C20ACF008EADD1 /* Assets.xcassets */; };
 		0088158526C20ACF008EADD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0088158326C20ACF008EADD1 /* LaunchScreen.storyboard */; };
+		0088158D26C210A8008EADD1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088158C26C210A8008EADD1 /* LoginViewController.swift */; };
+		0088158F26C210C9008EADD1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088158E26C210C9008EADD1 /* HomeViewController.swift */; };
+		0088159126C21135008EADD1 /* IndependenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088159026C21135008EADD1 /* IndependenceViewController.swift */; };
+		0088159326C21172008EADD1 /* PocketbookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088159226C21172008EADD1 /* PocketbookViewController.swift */; };
+		0088159726C21215008EADD1 /* GuidanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088159626C21215008EADD1 /* GuidanceViewController.swift */; };
+		0088159926C2125F008EADD1 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088159826C2125F008EADD1 /* InputViewController.swift */; };
+		0088159B26C21282008EADD1 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088159A26C21282008EADD1 /* SettingViewController.swift */; };
+		0088159D26C21361008EADD1 /* ConsentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088159C26C21361008EADD1 /* ConsentViewController.swift */; };
+		0088159F26C26A84008EADD1 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088159E26C26A83008EADD1 /* AccountViewController.swift */; };
+		008815A126C26FDC008EADD1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008815A026C26FDC008EADD1 /* TabBarController.swift */; };
+		00C058BE26C5FFD300B543E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00C058BD26C5FFD300B543E7 /* GoogleService-Info.plist */; };
+		2E0C6658A9089349DEB46754 /* Pods_outpatientapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A763877513CA59991D214F /* Pods_outpatientapp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0088157526C20ACE008EADD1 /* outpatientapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = outpatientapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0088157826C20ACE008EADD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0088157A26C20ACE008EADD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0088157C26C20ACE008EADD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0088157F26C20ACE008EADD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0088158126C20ACF008EADD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0088158426C20ACF008EADD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0088158626C20ACF008EADD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0088158C26C210A8008EADD1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		0088158E26C210C9008EADD1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		0088159026C21135008EADD1 /* IndependenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndependenceViewController.swift; sourceTree = "<group>"; };
+		0088159226C21172008EADD1 /* PocketbookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketbookViewController.swift; sourceTree = "<group>"; };
+		0088159626C21215008EADD1 /* GuidanceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuidanceViewController.swift; sourceTree = "<group>"; };
+		0088159826C2125F008EADD1 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		0088159A26C21282008EADD1 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		0088159C26C21361008EADD1 /* ConsentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentViewController.swift; sourceTree = "<group>"; };
+		0088159E26C26A83008EADD1 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
+		008815A026C26FDC008EADD1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		00C058BD26C5FFD300B543E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		BFBB9635C6838BFF2D9DC99C /* Pods-outpatientapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-outpatientapp.debug.xcconfig"; path = "Target Support Files/Pods-outpatientapp/Pods-outpatientapp.debug.xcconfig"; sourceTree = "<group>"; };
+		E174AED8C8A99A1E442BF670 /* Pods-outpatientapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-outpatientapp.release.xcconfig"; path = "Target Support Files/Pods-outpatientapp/Pods-outpatientapp.release.xcconfig"; sourceTree = "<group>"; };
+		F9A763877513CA59991D214F /* Pods_outpatientapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_outpatientapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E0C6658A9089349DEB46754 /* Pods_outpatientapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +67,8 @@
 			children = (
 				0088157726C20ACE008EADD1 /* outpatientapp */,
 				0088157626C20ACE008EADD1 /* Products */,
+				76CD33E50CA4B8DE02AD5046 /* Pods */,
+				E4AF9410F62ED8E0B5E8728A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +85,41 @@
 			children = (
 				0088157826C20ACE008EADD1 /* AppDelegate.swift */,
 				0088157A26C20ACE008EADD1 /* SceneDelegate.swift */,
-				0088157C26C20ACE008EADD1 /* ViewController.swift */,
+				0088158C26C210A8008EADD1 /* LoginViewController.swift */,
+				0088159C26C21361008EADD1 /* ConsentViewController.swift */,
+				0088159A26C21282008EADD1 /* SettingViewController.swift */,
+				008815A026C26FDC008EADD1 /* TabBarController.swift */,
+				0088158E26C210C9008EADD1 /* HomeViewController.swift */,
+				0088159026C21135008EADD1 /* IndependenceViewController.swift */,
+				0088159226C21172008EADD1 /* PocketbookViewController.swift */,
+				0088159E26C26A83008EADD1 /* AccountViewController.swift */,
+				0088159826C2125F008EADD1 /* InputViewController.swift */,
+				0088159626C21215008EADD1 /* GuidanceViewController.swift */,
 				0088157E26C20ACE008EADD1 /* Main.storyboard */,
 				0088158126C20ACF008EADD1 /* Assets.xcassets */,
 				0088158326C20ACF008EADD1 /* LaunchScreen.storyboard */,
 				0088158626C20ACF008EADD1 /* Info.plist */,
+				00C058BD26C5FFD300B543E7 /* GoogleService-Info.plist */,
 			);
 			path = outpatientapp;
+			sourceTree = "<group>";
+		};
+		76CD33E50CA4B8DE02AD5046 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BFBB9635C6838BFF2D9DC99C /* Pods-outpatientapp.debug.xcconfig */,
+				E174AED8C8A99A1E442BF670 /* Pods-outpatientapp.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E4AF9410F62ED8E0B5E8728A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F9A763877513CA59991D214F /* Pods_outpatientapp.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +129,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0088158926C20ACF008EADD1 /* Build configuration list for PBXNativeTarget "outpatientapp" */;
 			buildPhases = (
+				58338F7DD4C85D3862F1FC6C /* [CP] Check Pods Manifest.lock */,
 				0088157126C20ACE008EADD1 /* Sources */,
 				0088157226C20ACE008EADD1 /* Frameworks */,
 				0088157326C20ACE008EADD1 /* Resources */,
+				5D68DBDFBBC216E0C7C80C9B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +182,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0088158526C20ACF008EADD1 /* LaunchScreen.storyboard in Resources */,
+				00C058BE26C5FFD300B543E7 /* GoogleService-Info.plist in Resources */,
 				0088158226C20ACF008EADD1 /* Assets.xcassets in Resources */,
 				0088158026C20ACE008EADD1 /* Main.storyboard in Resources */,
 			);
@@ -132,14 +190,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		58338F7DD4C85D3862F1FC6C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-outpatientapp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D68DBDFBBC216E0C7C80C9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-outpatientapp/Pods-outpatientapp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-outpatientapp/Pods-outpatientapp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-outpatientapp/Pods-outpatientapp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0088157126C20ACE008EADD1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0088157D26C20ACE008EADD1 /* ViewController.swift in Sources */,
+				0088159926C2125F008EADD1 /* InputViewController.swift in Sources */,
+				0088158F26C210C9008EADD1 /* HomeViewController.swift in Sources */,
+				0088158D26C210A8008EADD1 /* LoginViewController.swift in Sources */,
+				0088159326C21172008EADD1 /* PocketbookViewController.swift in Sources */,
+				0088159126C21135008EADD1 /* IndependenceViewController.swift in Sources */,
+				0088159D26C21361008EADD1 /* ConsentViewController.swift in Sources */,
+				0088159B26C21282008EADD1 /* SettingViewController.swift in Sources */,
 				0088157926C20ACE008EADD1 /* AppDelegate.swift in Sources */,
+				0088159726C21215008EADD1 /* GuidanceViewController.swift in Sources */,
+				008815A126C26FDC008EADD1 /* TabBarController.swift in Sources */,
 				0088157B26C20ACE008EADD1 /* SceneDelegate.swift in Sources */,
+				0088159F26C26A84008EADD1 /* AccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +392,7 @@
 		};
 		0088158A26C20ACF008EADD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFBB9635C6838BFF2D9DC99C /* Pods-outpatientapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -296,12 +406,13 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.fumikato.294.outpatientapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		0088158B26C20ACF008EADD1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E174AED8C8A99A1E442BF670 /* Pods-outpatientapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -315,7 +426,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = jp.techacademy.fumikato.294.outpatientapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

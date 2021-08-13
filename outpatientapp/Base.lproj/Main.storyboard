@@ -1,24 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aLc-XO-hMG">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Login View Controller-->
+        <scene sceneID="Dx4-MS-zdT">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <viewController storyboardIdentifier="Login" id="qWx-Xo-c3d" customClass="LoginViewController" customModule="outpatientapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ztx-YO-lM8">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="8Aa-bA-unt"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dLh-jA-jRL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1802.8985507246377" y="69.642857142857139"/>
+        </scene>
+        <!--Consent View Controller-->
+        <scene sceneID="n4V-gl-nm2">
+            <objects>
+                <viewController storyboardIdentifier="Consent" id="abt-yz-ccY" customClass="ConsentViewController" customModule="outpatientapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Iou-zF-ehg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="B8P-vR-8v4"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="yv1-Pv-YsI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2705.7971014492755" y="69.642857142857139"/>
+        </scene>
+        <!--Setting View Controller-->
+        <scene sceneID="tsM-2d-2ih">
+            <objects>
+                <viewController storyboardIdentifier="Setting" id="6fd-LV-Gxs" customClass="SettingViewController" customModule="outpatientapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="jxb-Dh-895">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="VFs-3M-UmL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="541-yw-fLv" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3592.753623188406" y="69.642857142857139"/>
+        </scene>
+        <!--基本情報-->
+        <scene sceneID="Ybc-tJ-h5f">
+            <objects>
+                <viewController storyboardIdentifier="Home" id="4xZ-Ex-lhT" customClass="HomeViewController" customModule="outpatientapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OU1-il-hMS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="8nR-Ne-bMY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="基本情報" image="infomation" id="IlJ-OU-wWf"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wBp-X3-bvC" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="893" y="863"/>
+        </scene>
+        <!--自立支援-->
+        <scene sceneID="zAc-yk-qh3">
+            <objects>
+                <viewController storyboardIdentifier="Independence" id="ipr-0L-YfM" customClass="IndependenceViewController" customModule="outpatientapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fIn-Fo-5EH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="vnh-Th-6Yl"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="自立支援" image="independence black" id="m8x-N3-xh4"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="t18-4X-5CV" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1796" y="863"/>
+        </scene>
+        <!--手帳-->
+        <scene sceneID="Lay-fr-UeV">
+            <objects>
+                <viewController storyboardIdentifier="Pocket" id="XPq-ak-scg" customClass="PocketbookViewController" customModule="outpatientapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="7Lf-fk-Dks">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="9Wn-ZH-ife"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="手帳" image="pocketbook" id="EBC-W7-WaG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eI8-WE-qfc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2683" y="863"/>
+        </scene>
+        <!--アカウント-->
+        <scene sceneID="C0P-Kc-mh5">
+            <objects>
+                <viewController storyboardIdentifier="Account" id="uTo-ep-kJ9" customClass="AccountViewController" customModule="outpatientapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="w5N-1X-cVg">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="KWd-zv-BF3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="アカウント" image="account mini" id="aoN-RW-ylY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="M4k-YB-HvQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3593" y="863"/>
+        </scene>
+        <!--Input View Controller-->
+        <scene sceneID="XBF-Ah-9jX">
+            <objects>
+                <viewController storyboardIdentifier="Input" id="4Le-mf-mod" customClass="InputViewController" customModule="outpatientapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zeS-Tk-c8D">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="9rt-he-w7I"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="0JD-Ev-tav" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="893" y="1651"/>
+        </scene>
+        <!--Guidance View Controller-->
+        <scene sceneID="R7F-iA-dEp">
+            <objects>
+                <viewController storyboardIdentifier="Guidance" id="hn9-FM-1Xl" customClass="GuidanceViewController" customModule="outpatientapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iQW-ut-ix2">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="qDU-im-f4I"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Mu-ak-lqD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1796" y="1651"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ekJ-EQ-bHp">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="aLc-XO-hMG" customClass="TabBarController" customModule="outpatientapp" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Re2-Vk-GiG">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="4xZ-Ex-lhT" kind="relationship" relationship="viewControllers" id="FGk-NW-cjU"/>
+                        <segue destination="ipr-0L-YfM" kind="relationship" relationship="viewControllers" id="MRQ-aA-tc1"/>
+                        <segue destination="XPq-ak-scg" kind="relationship" relationship="viewControllers" id="4lN-9w-1Xe"/>
+                        <segue destination="uTo-ep-kJ9" kind="relationship" relationship="viewControllers" id="mFK-Zx-Yp0"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uV3-MI-cTY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-23.188405797101453" y="69.642857142857139"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="account mini" width="24" height="24"/>
+        <image name="independence black" width="24" height="24"/>
+        <image name="infomation" width="23.5" height="23.5"/>
+        <image name="pocketbook" width="23.5" height="23.5"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
