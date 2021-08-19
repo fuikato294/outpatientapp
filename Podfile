@@ -12,4 +12,7 @@ target 'outpatientapp' do
   pod 'Firebase/Firestore'
   pod 'Firebase/Storage'
   pod 'FirebaseUI/Storage'
+  pod 'SVProgressHUD','2.2.5'
+
+  pod 'RealmSwift','10.11.0'
 end
