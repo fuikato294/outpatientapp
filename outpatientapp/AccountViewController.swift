@@ -37,7 +37,7 @@ class AccountViewController: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
 
-        // アドレスと表示名を取得してTextFieldに設定する
+        // アドレスと表示名を取得してLabelに設定する
         let user = Auth.auth().currentUser
         if let user = user {
             mailAddressLabel.text = user.email

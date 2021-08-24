@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0081F75F26D4CDDB00094453 /* PocketbookGrade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0081F75E26D4CDDB00094453 /* PocketbookGrade.swift */; };
 		0088157926C20ACE008EADD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088157826C20ACE008EADD1 /* AppDelegate.swift */; };
 		0088157B26C20ACE008EADD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088157A26C20ACE008EADD1 /* SceneDelegate.swift */; };
 		0088158026C20ACE008EADD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0088157E26C20ACE008EADD1 /* Main.storyboard */; };
@@ -20,13 +21,14 @@
 		0088159D26C21361008EADD1 /* ConsentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088159C26C21361008EADD1 /* ConsentViewController.swift */; };
 		0088159F26C26A84008EADD1 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088159E26C26A83008EADD1 /* AccountViewController.swift */; };
 		008815A126C26FDC008EADD1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008815A026C26FDC008EADD1 /* TabBarController.swift */; };
+		008E739F26D096880089A450 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008E739E26D096880089A450 /* Const.swift */; };
 		0099D77A26CDFD75002B38EF /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099D77926CDFD75002B38EF /* BirthdayViewController.swift */; };
 		0099D77C26CDFDF6002B38EF /* FirstVisitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099D77B26CDFDF6002B38EF /* FirstVisitViewController.swift */; };
 		0099D77E26CDFF05002B38EF /* DiagnosisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099D77D26CDFF05002B38EF /* DiagnosisViewController.swift */; };
 		0099D78026CDFFDD002B38EF /* UpdateIndependenceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099D77F26CDFFDD002B38EF /* UpdateIndependenceViewController.swift */; };
 		0099D78226CE001D002B38EF /* UpdatePocketbookViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099D78126CE001D002B38EF /* UpdatePocketbookViewController.swift */; };
-		0099D78426CE004C002B38EF /* GradeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099D78326CE004C002B38EF /* GradeViewController.swift */; };
 		0099D78626CE546C002B38EF /* EmailEditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099D78526CE546C002B38EF /* EmailEditingViewController.swift */; };
+		009E2D9A26D1E3EE009E7D2C /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 009E2D9926D1E3EE009E7D2C /* PostData.swift */; };
 		00C058BE26C5FFD300B543E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00C058BD26C5FFD300B543E7 /* GoogleService-Info.plist */; };
 		00D8EE9726CCAF7D005FFB10 /* NameEditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D8EE9626CCAF7D005FFB10 /* NameEditingViewController.swift */; };
 		00D8EE9926CDF8D9005FFB10 /* PurposeInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D8EE9826CDF8D9005FFB10 /* PurposeInputViewController.swift */; };
@@ -34,6 +36,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0081F75E26D4CDDB00094453 /* PocketbookGrade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PocketbookGrade.swift; sourceTree = "<group>"; };
 		0088157526C20ACE008EADD1 /* outpatientapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = outpatientapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0088157826C20ACE008EADD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0088157A26C20ACE008EADD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,13 +52,14 @@
 		0088159C26C21361008EADD1 /* ConsentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentViewController.swift; sourceTree = "<group>"; };
 		0088159E26C26A83008EADD1 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		008815A026C26FDC008EADD1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		008E739E26D096880089A450 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		0099D77926CDFD75002B38EF /* BirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
 		0099D77B26CDFDF6002B38EF /* FirstVisitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVisitViewController.swift; sourceTree = "<group>"; };
 		0099D77D26CDFF05002B38EF /* DiagnosisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosisViewController.swift; sourceTree = "<group>"; };
 		0099D77F26CDFFDD002B38EF /* UpdateIndependenceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateIndependenceViewController.swift; sourceTree = "<group>"; };
 		0099D78126CE001D002B38EF /* UpdatePocketbookViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePocketbookViewController.swift; sourceTree = "<group>"; };
-		0099D78326CE004C002B38EF /* GradeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradeViewController.swift; sourceTree = "<group>"; };
 		0099D78526CE546C002B38EF /* EmailEditingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailEditingViewController.swift; sourceTree = "<group>"; };
+		009E2D9926D1E3EE009E7D2C /* PostData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
 		00C058BD26C5FFD300B543E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		00D8EE9626CCAF7D005FFB10 /* NameEditingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameEditingViewController.swift; sourceTree = "<group>"; };
 		00D8EE9826CDF8D9005FFB10 /* PurposeInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurposeInputViewController.swift; sourceTree = "<group>"; };
@@ -102,6 +106,8 @@
 				0088158C26C210A8008EADD1 /* LoginViewController.swift */,
 				0088159C26C21361008EADD1 /* ConsentViewController.swift */,
 				008815A026C26FDC008EADD1 /* TabBarController.swift */,
+				008E739E26D096880089A450 /* Const.swift */,
+				009E2D9926D1E3EE009E7D2C /* PostData.swift */,
 				0088158E26C210C9008EADD1 /* HomeViewController.swift */,
 				00D8EE9826CDF8D9005FFB10 /* PurposeInputViewController.swift */,
 				0099D77926CDFD75002B38EF /* BirthdayViewController.swift */,
@@ -109,7 +115,7 @@
 				0099D77D26CDFF05002B38EF /* DiagnosisViewController.swift */,
 				0099D77F26CDFFDD002B38EF /* UpdateIndependenceViewController.swift */,
 				0099D78126CE001D002B38EF /* UpdatePocketbookViewController.swift */,
-				0099D78326CE004C002B38EF /* GradeViewController.swift */,
+				0081F75E26D4CDDB00094453 /* PocketbookGrade.swift */,
 				0088159026C21135008EADD1 /* IndependenceViewController.swift */,
 				0088159226C21172008EADD1 /* PocketbookViewController.swift */,
 				0088159E26C26A83008EADD1 /* AccountViewController.swift */,
@@ -263,11 +269,12 @@
 				0088158D26C210A8008EADD1 /* LoginViewController.swift in Sources */,
 				00D8EE9726CCAF7D005FFB10 /* NameEditingViewController.swift in Sources */,
 				0099D77A26CDFD75002B38EF /* BirthdayViewController.swift in Sources */,
+				0081F75F26D4CDDB00094453 /* PocketbookGrade.swift in Sources */,
 				0099D78026CDFFDD002B38EF /* UpdateIndependenceViewController.swift in Sources */,
 				0088159326C21172008EADD1 /* PocketbookViewController.swift in Sources */,
 				00D8EE9926CDF8D9005FFB10 /* PurposeInputViewController.swift in Sources */,
+				008E739F26D096880089A450 /* Const.swift in Sources */,
 				0088159126C21135008EADD1 /* IndependenceViewController.swift in Sources */,
-				0099D78426CE004C002B38EF /* GradeViewController.swift in Sources */,
 				0099D77E26CDFF05002B38EF /* DiagnosisViewController.swift in Sources */,
 				0088159D26C21361008EADD1 /* ConsentViewController.swift in Sources */,
 				0088157926C20ACE008EADD1 /* AppDelegate.swift in Sources */,
@@ -275,6 +282,7 @@
 				008815A126C26FDC008EADD1 /* TabBarController.swift in Sources */,
 				0088157B26C20ACE008EADD1 /* SceneDelegate.swift in Sources */,
 				0088159F26C26A84008EADD1 /* AccountViewController.swift in Sources */,
+				009E2D9A26D1E3EE009E7D2C /* PostData.swift in Sources */,
 				0099D78626CE546C002B38EF /* EmailEditingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
