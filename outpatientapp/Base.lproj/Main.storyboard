@@ -348,6 +348,7 @@
                         <outlet property="diagnosisLabel" destination="zZm-oj-GZb" id="WZ5-go-VoZ"/>
                         <outlet property="firstVisitLabel" destination="yP6-si-Dc8" id="gtC-5B-QV0"/>
                         <outlet property="independenceLabel" destination="vpb-eL-vsB" id="KGd-8Q-3ba"/>
+                        <outlet property="pocketbookGradeLabel" destination="Ntu-B0-vhJ" id="fNm-wj-v2F"/>
                         <outlet property="pocketbookLabel" destination="tyZ-fe-7oq" id="wBA-oU-OJv"/>
                         <outlet property="purposeLabel" destination="9a7-PH-1eF" id="CeB-Az-KWe"/>
                     </connections>

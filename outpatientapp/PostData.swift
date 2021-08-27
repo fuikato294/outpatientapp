@@ -39,7 +39,7 @@ class PostData: NSObject {
         let pocketbookTimestamp = postDic["pocketbook"] as? Timestamp
         self.pocketbook = pocketbookTimestamp?.dateValue()
         
-        self.pocketbookGrade = postDic["purpose"] as? String
+        self.pocketbookGrade = postDic["pocketbookGrade"] as? String
         }
 
 }

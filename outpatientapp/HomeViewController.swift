@@ -16,6 +16,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var diagnosisLabel: UILabel!
     @IBOutlet weak var independenceLabel: UILabel!
     @IBOutlet weak var pocketbookLabel: UILabel!
+    @IBOutlet weak var pocketbookGradeLabel: UILabel!
     
     var postData: [PostData] = []
     
@@ -31,36 +32,39 @@ class HomeViewController: UIViewController {
             super.viewWillAppear(animated)
             print("DEBUG_PRINT: viewWillAppear")
         
-            // ログイン済みか確認
-            if Auth.auth().currentUser != nil {
-                // listenerを登録して投稿データの更新を監視する
-                // Firestoreの postsフォルダに格納されている投稿データを取得するクエリ
-                let postsRef = Firestore.firestore().collection(Const.PostPath)
-                listener = postsRef.addSnapshotListener() { (querySnapshot, error) in
-                    if let error = error {
-                        print("DEBUG_PRINT: snapshotの取得が失敗しました。 \(error)")
-                        return
-                    }
-                    // 取得したdocumentをもとにPostDataを作成する。
-                    self.postData = querySnapshot!.documents.map { document in
-                        print("DEBUG_PRINT: document取得 \(document.documentID)")
-                        let postData = PostData(document: document)
-                        _ = Auth.auth().currentUser
-                        _ = Firestore.firestore().collection("posts").document(Auth.auth().currentUser!.uid)
-                        func setPostData(_ postData: PostData) {
-                                    self.purposeLabel.text = "\(postData.purpose!)"
-                                    self.diagnosisLabel.text = "\(postData.diagnosis!)"
-                                    }
-                        return postData
-                    }
+         // ログイン済みか確認
+        if Auth.auth().currentUser != nil {
+            
+            // Firestoreからデータを辞書型で取得
+            let postsRef = Firestore.firestore().collection(Const.PostPath).document(Auth.auth().currentUser!.uid)
+            listener = postsRef.addSnapshotListener() { (documentSnapshot, error) in
+                if let error = error {
+                    return
                 }
-            }
+                guard let document = documentSnapshot else {
+                    return
+                }
+                print(document.data())
+                guard let documentData = document.data() else {
+                    return
+                }
+                    self.purposeLabel.text = "\(documentData["purpose"]!)"
+                    self.diagnosisLabel.text = "\(documentData["diagnosis"]!)"
+                    self.pocketbookGradeLabel.text = "\(documentData["pocketbookGrade"]!)"
+                let formatter = DateFormatter()
+                formatter.dateFormat = "yyyy/MM/dd"
+                self.birthdayLabel.text = "\(documentData["birthday"]!)"
+                self.firstVisitLabel.text = "\(documentData["firstVisit"]!)"
+                self.independenceLabel.text = "\(documentData["updateIndependence"]!)"
+                self.pocketbookLabel.text = "\(documentData["updatePocketbook"]!)"
+              }
+        }
     }
-    
+
     override func viewWillDisappear(_ animated: Bool) {
-        super.viewWillDisappear(animated)
-        print("DEBUG_PRINT: viewWillDisappear")      
-        // listenerを削除して監視を停止する
-        listener?.remove()
+//        super.viewWillDisappear(animated)
+//        print("DEBUG_PRINT: viewWillDisappear")
+//        // listenerを削除して監視を停止する
+//        listener?.remove()
     }
 }
