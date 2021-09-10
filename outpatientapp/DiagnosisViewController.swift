@@ -32,8 +32,9 @@ class DiagnosisViewController: UIViewController {
         UIApplication.shared.windows.first{ $0.isKeyWindow }?.rootViewController?.dismiss(animated: true, completion: nil)
     }
 
-    // キャンセルボタンをタップしたときに呼ばれるメソッド
-    @IBAction func diagnosisCancelButton(_ sender: Any) {
+    @IBAction func diagnosisCancaelButton(_ sender: Any) {
+        // 画面を閉じてタブ画面に戻る
+        self.dismiss(animated: true, completion: nil)
     }
     
     override func viewDidLoad() {

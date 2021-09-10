@@ -53,18 +53,18 @@ class HomeViewController: UIViewController {
                     self.pocketbookGradeLabel.text = "\(documentData["pocketbookGrade"]!)"
                 let formatter = DateFormatter()
                 formatter.dateFormat = "yyyy/MM/dd"
-                self.birthdayLabel.text = "\(documentData["birthday"]!)"
-                self.firstVisitLabel.text = "\(documentData["firstVisit"]!)"
-                self.independenceLabel.text = "\(documentData["updateIndependence"]!)"
-                self.pocketbookLabel.text = "\(documentData["updatePocketbook"]!)"
-              }
+                    self.birthdayLabel.text = "\(documentData["birthday"]!)"
+                    self.firstVisitLabel.text = "\(documentData["firstVisit"]!)"
+                    self.independenceLabel.text = "\(documentData["updateIndependence"]!)"
+                    self.pocketbookLabel.text = "\(documentData["updatePocketbook"]!)"
+            }
         }
     }
 
     override func viewWillDisappear(_ animated: Bool) {
-//        super.viewWillDisappear(animated)
-//        print("DEBUG_PRINT: viewWillDisappear")
-//        // listenerを削除して監視を停止する
-//        listener?.remove()
+        super.viewWillDisappear(animated)
+        print("DEBUG_PRINT: viewWillDisappear")
+        // listenerを削除して監視を停止する
+        listener?.remove()
     }
 }

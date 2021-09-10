@@ -29,6 +29,7 @@ class TabBarController: UITabBarController, UITabBarControllerDelegate {
             // ログインしていないときの処理
             // instantiateViewController(withIdentifier:)メソッドの引数"Login"はStoryboardID
             let loginViewController = self.storyboard?.instantiateViewController(withIdentifier: "Login")
+//            let navigationController = UINavigationController(rootViewController: loginViewController!)
             // present(_:animated:completion:)メソッドでモーダル画面遷移
             self.present(loginViewController!, animated: true, completion: nil)
         }

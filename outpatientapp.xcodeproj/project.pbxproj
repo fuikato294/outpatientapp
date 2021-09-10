@@ -21,6 +21,7 @@
 		0088159D26C21361008EADD1 /* ConsentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088159C26C21361008EADD1 /* ConsentViewController.swift */; };
 		0088159F26C26A84008EADD1 /* AccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0088159E26C26A83008EADD1 /* AccountViewController.swift */; };
 		008815A126C26FDC008EADD1 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008815A026C26FDC008EADD1 /* TabBarController.swift */; };
+		0089BA3426D91ECD0008F327 /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0089BA3326D91ECD0008F327 /* ResetPasswordViewController.swift */; };
 		008E739F26D096880089A450 /* Const.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008E739E26D096880089A450 /* Const.swift */; };
 		0099D77A26CDFD75002B38EF /* BirthdayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099D77926CDFD75002B38EF /* BirthdayViewController.swift */; };
 		0099D77C26CDFDF6002B38EF /* FirstVisitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0099D77B26CDFDF6002B38EF /* FirstVisitViewController.swift */; };
@@ -32,7 +33,8 @@
 		00C058BE26C5FFD300B543E7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 00C058BD26C5FFD300B543E7 /* GoogleService-Info.plist */; };
 		00D8EE9726CCAF7D005FFB10 /* NameEditingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D8EE9626CCAF7D005FFB10 /* NameEditingViewController.swift */; };
 		00D8EE9926CDF8D9005FFB10 /* PurposeInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00D8EE9826CDF8D9005FFB10 /* PurposeInputViewController.swift */; };
-		2E0C6658A9089349DEB46754 /* Pods_outpatientapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9A763877513CA59991D214F /* Pods_outpatientapp.framework */; };
+		00F4A24726DCC7BF00622A36 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F4A24626DCC7BF00622A36 /* CreateAccountViewController.swift */; };
+		A4490DDC49C2A3F7FEF8F743 /* Pods_outpatientapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5EA8AD7D7F7745D55BB2E0B /* Pods_outpatientapp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +54,7 @@
 		0088159C26C21361008EADD1 /* ConsentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsentViewController.swift; sourceTree = "<group>"; };
 		0088159E26C26A83008EADD1 /* AccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountViewController.swift; sourceTree = "<group>"; };
 		008815A026C26FDC008EADD1 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		0089BA3326D91ECD0008F327 /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPasswordViewController.swift; sourceTree = "<group>"; };
 		008E739E26D096880089A450 /* Const.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Const.swift; sourceTree = "<group>"; };
 		0099D77926CDFD75002B38EF /* BirthdayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayViewController.swift; sourceTree = "<group>"; };
 		0099D77B26CDFDF6002B38EF /* FirstVisitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVisitViewController.swift; sourceTree = "<group>"; };
@@ -63,9 +66,10 @@
 		00C058BD26C5FFD300B543E7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		00D8EE9626CCAF7D005FFB10 /* NameEditingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NameEditingViewController.swift; sourceTree = "<group>"; };
 		00D8EE9826CDF8D9005FFB10 /* PurposeInputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PurposeInputViewController.swift; sourceTree = "<group>"; };
-		BFBB9635C6838BFF2D9DC99C /* Pods-outpatientapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-outpatientapp.debug.xcconfig"; path = "Target Support Files/Pods-outpatientapp/Pods-outpatientapp.debug.xcconfig"; sourceTree = "<group>"; };
-		E174AED8C8A99A1E442BF670 /* Pods-outpatientapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-outpatientapp.release.xcconfig"; path = "Target Support Files/Pods-outpatientapp/Pods-outpatientapp.release.xcconfig"; sourceTree = "<group>"; };
-		F9A763877513CA59991D214F /* Pods_outpatientapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_outpatientapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		00F4A24626DCC7BF00622A36 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		0A8E545A7C550C1B0768768D /* Pods-outpatientapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-outpatientapp.debug.xcconfig"; path = "Target Support Files/Pods-outpatientapp/Pods-outpatientapp.debug.xcconfig"; sourceTree = "<group>"; };
+		23441A376676536A5ECD0353 /* Pods-outpatientapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-outpatientapp.release.xcconfig"; path = "Target Support Files/Pods-outpatientapp/Pods-outpatientapp.release.xcconfig"; sourceTree = "<group>"; };
+		C5EA8AD7D7F7745D55BB2E0B /* Pods_outpatientapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_outpatientapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E0C6658A9089349DEB46754 /* Pods_outpatientapp.framework in Frameworks */,
+				A4490DDC49C2A3F7FEF8F743 /* Pods_outpatientapp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,7 +90,7 @@
 				0088157726C20ACE008EADD1 /* outpatientapp */,
 				0088157626C20ACE008EADD1 /* Products */,
 				76CD33E50CA4B8DE02AD5046 /* Pods */,
-				E4AF9410F62ED8E0B5E8728A /* Frameworks */,
+				065D39886D91C6340A48C22E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +108,7 @@
 				0088157826C20ACE008EADD1 /* AppDelegate.swift */,
 				0088157A26C20ACE008EADD1 /* SceneDelegate.swift */,
 				0088158C26C210A8008EADD1 /* LoginViewController.swift */,
+				00F4A24626DCC7BF00622A36 /* CreateAccountViewController.swift */,
 				0088159C26C21361008EADD1 /* ConsentViewController.swift */,
 				008815A026C26FDC008EADD1 /* TabBarController.swift */,
 				008E739E26D096880089A450 /* Const.swift */,
@@ -121,6 +126,7 @@
 				0088159E26C26A83008EADD1 /* AccountViewController.swift */,
 				00D8EE9626CCAF7D005FFB10 /* NameEditingViewController.swift */,
 				0099D78526CE546C002B38EF /* EmailEditingViewController.swift */,
+				0089BA3326D91ECD0008F327 /* ResetPasswordViewController.swift */,
 				0088159626C21215008EADD1 /* GuidanceViewController.swift */,
 				0088157E26C20ACE008EADD1 /* Main.storyboard */,
 				0088158126C20ACF008EADD1 /* Assets.xcassets */,
@@ -131,21 +137,21 @@
 			path = outpatientapp;
 			sourceTree = "<group>";
 		};
+		065D39886D91C6340A48C22E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C5EA8AD7D7F7745D55BB2E0B /* Pods_outpatientapp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		76CD33E50CA4B8DE02AD5046 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BFBB9635C6838BFF2D9DC99C /* Pods-outpatientapp.debug.xcconfig */,
-				E174AED8C8A99A1E442BF670 /* Pods-outpatientapp.release.xcconfig */,
+				0A8E545A7C550C1B0768768D /* Pods-outpatientapp.debug.xcconfig */,
+				23441A376676536A5ECD0353 /* Pods-outpatientapp.release.xcconfig */,
 			);
 			path = Pods;
-			sourceTree = "<group>";
-		};
-		E4AF9410F62ED8E0B5E8728A /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				F9A763877513CA59991D214F /* Pods_outpatientapp.framework */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -155,11 +161,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0088158926C20ACF008EADD1 /* Build configuration list for PBXNativeTarget "outpatientapp" */;
 			buildPhases = (
-				58338F7DD4C85D3862F1FC6C /* [CP] Check Pods Manifest.lock */,
+				1244996D9608F92C55C2343B /* [CP] Check Pods Manifest.lock */,
 				0088157126C20ACE008EADD1 /* Sources */,
 				0088157226C20ACE008EADD1 /* Frameworks */,
 				0088157326C20ACE008EADD1 /* Resources */,
-				5D68DBDFBBC216E0C7C80C9B /* [CP] Embed Pods Frameworks */,
+				6EAEFD2FBC14210B831CE0E2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,7 +223,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		58338F7DD4C85D3862F1FC6C /* [CP] Check Pods Manifest.lock */ = {
+		1244996D9608F92C55C2343B /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,7 +245,7 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		5D68DBDFBBC216E0C7C80C9B /* [CP] Embed Pods Frameworks */ = {
+		6EAEFD2FBC14210B831CE0E2 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,6 +272,7 @@
 				0099D78226CE001D002B38EF /* UpdatePocketbookViewController.swift in Sources */,
 				0088158F26C210C9008EADD1 /* HomeViewController.swift in Sources */,
 				0099D77C26CDFDF6002B38EF /* FirstVisitViewController.swift in Sources */,
+				0089BA3426D91ECD0008F327 /* ResetPasswordViewController.swift in Sources */,
 				0088158D26C210A8008EADD1 /* LoginViewController.swift in Sources */,
 				00D8EE9726CCAF7D005FFB10 /* NameEditingViewController.swift in Sources */,
 				0099D77A26CDFD75002B38EF /* BirthdayViewController.swift in Sources */,
@@ -276,6 +283,7 @@
 				008E739F26D096880089A450 /* Const.swift in Sources */,
 				0088159126C21135008EADD1 /* IndependenceViewController.swift in Sources */,
 				0099D77E26CDFF05002B38EF /* DiagnosisViewController.swift in Sources */,
+				00F4A24726DCC7BF00622A36 /* CreateAccountViewController.swift in Sources */,
 				0088159D26C21361008EADD1 /* ConsentViewController.swift in Sources */,
 				0088157926C20ACE008EADD1 /* AppDelegate.swift in Sources */,
 				0088159726C21215008EADD1 /* GuidanceViewController.swift in Sources */,
@@ -427,7 +435,7 @@
 		};
 		0088158A26C20ACF008EADD1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BFBB9635C6838BFF2D9DC99C /* Pods-outpatientapp.debug.xcconfig */;
+			baseConfigurationReference = 0A8E545A7C550C1B0768768D /* Pods-outpatientapp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -447,7 +455,7 @@
 		};
 		0088158B26C20ACF008EADD1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E174AED8C8A99A1E442BF670 /* Pods-outpatientapp.release.xcconfig */;
+			baseConfigurationReference = 23441A376676536A5ECD0353 /* Pods-outpatientapp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

@@ -31,11 +31,13 @@ class PurposeInputViewController: UIViewController, UIPickerViewDataSource, UIPi
        UIApplication.shared.windows.first{ $0.isKeyWindow }?.rootViewController?.dismiss(animated: true, completion: nil)
     }
     
-    // キャンセルボタンをタップしたときに呼ばれるメソッド
-    @IBAction func purposeCancelButton(_ sender: Any) {
+    let purposeDataList = [["自分のため","家族や知人のため","その他"]]
+    
+    @IBAction func purposeCancaelButton(_ sender: Any) {
+        // 画面を閉じてタブ画面に戻る
+        self.dismiss(animated: true, completion: nil)
     }
     
-    let purposeDataList = [["自分のため","家族や知人のため","その他"]]
     
     override func viewDidLoad() {
         super.viewDidLoad()

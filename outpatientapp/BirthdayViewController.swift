@@ -40,14 +40,16 @@ class BirthdayViewController: UIViewController {
         birthdayLabel.text = formatter.string(from: sender.date)
     
     }
+
+    // キャンセルボタンをタップしたときに呼ばれるメソッド
+    @IBAction func birthdayCancelButton(_ sender: Any) {
+        // 画面を閉じてタブ画面に戻る
+        self.dismiss(animated: true, completion: nil)
+    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-    }
-
-    // キャンセルボタンをタップしたときに呼ばれるメソッド
-    @IBAction func birthdayCancelButton(_ sender: Any) {
     }
     
 }

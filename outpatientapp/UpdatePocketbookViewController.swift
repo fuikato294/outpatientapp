@@ -41,6 +41,11 @@ class UpdatePocketbookViewController: UIViewController {
     
     }
     
+    @IBAction func updatePocketbookCancaelButton(_ sender: Any) {
+        // 画面を閉じてタブ画面に戻る
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

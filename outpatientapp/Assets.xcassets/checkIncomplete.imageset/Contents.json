@@ -1,17 +1,17 @@
 {
   "images" : [
     {
-      "filename" : "account mini.png",
+      "filename" : "checkIncomplete.png",
       "idiom" : "universal",
       "scale" : "1x"
     },
     {
-      "filename" : "account mini@2x.png",
+      "filename" : "checkIncomplete@2x.png",
       "idiom" : "universal",
       "scale" : "2x"
     },
     {
-      "filename" : "account mini@3x.png",
+      "filename" : "checkIncomplete@3x.png",
       "idiom" : "universal",
       "scale" : "3x"
     }
