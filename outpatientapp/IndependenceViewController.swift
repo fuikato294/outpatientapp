@@ -12,26 +12,36 @@ class IndependenceViewController: UIViewController, UITableViewDelegate, UITable
     
     @IBOutlet weak var independenceTableView: UITableView!
     
+    // userDefaultsの定義
+    var userDefaults = UserDefaults.standard
+    
     // Buttonのon/offデータを格納する配列
-    var checkArray = [true,true,true,true,true,true]
+    var checkArray = [true,true,true,true,true,true,true,true,true,true]
+    
     // アップロードした画像を配列に格納
     let imageName = ["checkIncomplete","checkComplete"]
-//    var changeImgNo = 1
     
     let stepArray: [String] = [
-        "STEP0.",
-        "STEP1.",
-        "STEP2.",
-        "STEP3.",
-        "STEP4.",
-        "STEP5."
+        "STEP0.はじめに",
+        "STEP1.受給資格の確認",
+        "STEP2.診断書の発行",
+        "STEP3.申請の準備",
+        "STEP4.役所での申請手続き",
+        "STEP5.受給者証が届くまで",
+        "STEP6.受給者証の受け取り",
+        "STEP7.更新期限３ヶ月前",
+        "STEP8.更新手続き",
+        "STEP9.更新したらすること"
     ]
-    
-//    var switchButon:Bool = false
+
         
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        // userDefaultsに保存された値の取得
+        let getCheckArray:[Bool] = userDefaults.array(forKey: "udCheckArray") as! [Bool]
+        print(getCheckArray)
         
         // 画面の横の長さ
         let width = self.view.frame.size.width
@@ -114,6 +124,9 @@ class IndependenceViewController: UIViewController, UITableViewDelegate, UITable
             sender.setImage(UIImage(named: "checkIncomplete"), for: .normal)
         }
 
+        // userDefaultsに格納したい値
+        userDefaults.set(checkArray, forKey: "udCheckArray")
+        
     }
     
     

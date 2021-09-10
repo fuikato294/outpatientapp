@@ -509,7 +509,7 @@
                                                         <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="60" id="6WW-h1-7CM"/>
                                                         <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="260" id="hWg-iQ-Q2Z"/>
                                                     </constraints>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
